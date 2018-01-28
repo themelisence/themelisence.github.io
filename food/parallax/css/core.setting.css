@@ -1,0 +1,46 @@
+/*------------------------------------------------------------------
+
+[Core Setting]
+
+-------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*parallax background*/
+
+.parallax-bg{
+	background-image: url(../img/parallax.jpg);
+}
+
+/*end parallax background*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*content grid background*/
+
+.content-grid-bg1{
+    background-image: url(../img/m1.jpg);
+}
+.content-grid-bg2{
+    background-image: url(../img/m2.jpg);
+}
+.content-grid-bg3{
+    background-image: url(../img/m3.jpg);
+}
+.content-grid-bg4{
+    background-image: url(../img/m4.jpg);
+}
+
+/*end content grid background*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*footer background*/
+
+.footer-bg{
+	background-image: url(../img/footer.jpg);
+}
+
+/*end footer background*/
+/*-----------------------------------------------------------------*/
+
+
