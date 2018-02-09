@@ -1,0 +1,1 @@
+"use strict";$(window).scroll(function(){$(document).scrollTop()>0?$(".opn-nav").addClass("opn-nav-sticky"):$(".opn-nav").removeClass("opn-nav-sticky");var o=$(".fmc-scroll-perspective"),n=$(window);n.on("scroll",function(){var s=n.scrollTop()/6;o.css("transform","rotateY("+s+"deg)")})});
