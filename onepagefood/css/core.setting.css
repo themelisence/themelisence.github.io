@@ -1,0 +1,69 @@
+/*------------------------------------------------------------------
+
+[Core Setting]
+
+-------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*owl background*/
+
+.owl-slider1{
+    background-image: url(../img/slider1.jpg);
+}
+.owl-slider2{
+    background-image: url(../img/slider2.jpg);
+}
+.owl-slider3{
+    background-image: url(../img/slider3.jpg);
+}
+
+.owl-bg1{
+    background-image: url(../img/1.jpg);
+}
+.owl-bg2{
+    background-image: url(../img/2.jpg);
+}
+.owl-bg3{
+    background-image: url(../img/3.jpg);
+}
+.owl-bg4{
+    background-image: url(../img/4.jpg);
+}
+.owl-bg5{
+    background-image: url(../img/5.jpg);
+}
+.owl-bg6{
+    background-image: url(../img/6.jpg);
+}
+.owl-bg7{
+    background-image: url(../img/7.jpg);
+}
+
+/*end owl background*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*parallax background*/
+
+.parallax-bg{
+	background-image: url(../img/parallax.jpg);
+}
+
+/*end parallax background*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*name card bg*/
+
+.name-card-bg1{
+	background-image: url(../img/chef.jpg);
+}
+.name-card-bg2{
+	background-image: url(../img/chef.jpg);
+}
+.name-card-bg3{
+	background-image: url(../img/chef.jpg);
+}
+
+/*end name card bg*/
+/*-----------------------------------------------------------------*/
