@@ -1,0 +1,141 @@
+/* Controls
+---------------------------------------------------------------------- */
+
+.mix-controls {
+    position: relative;
+    text-align: center;
+    margin: 16px;
+}
+
+.mix-controls button{
+    background-color: #fff;
+    border: 1px dashed #ddd;
+    padding: 10px 16px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    margin: 4px 0;
+}
+
+.mix-control:hover {
+    border-color: #888;
+    color: #000;
+}
+
+.mixitup-control-active {
+    border-color: #888!important;
+    color: #000;
+}
+
+.mixitup-control-active[data-filter]:after {
+    background: transparent;
+}
+
+/* Container
+---------------------------------------------------------------------- */
+
+.mix-container {
+    padding: 1rem;
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+.mix-container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+/* Target Elements
+---------------------------------------------------------------------- */
+
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mix {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.mix a{
+    display: block;
+    overflow: hidden;
+}
+.mix a:after{
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: -50%;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.1);
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+.mix a:hover:after{
+    right: 100%;
+}
+.mix a:before{
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.mix img{
+    display: block;
+}
+
+.mix:before {
+    content: "";
+    display: block;
+    padding-top: 16px;
+}
+
+/* Grid Breakpoints
+---------------------------------------------------------------------- */
+
+/* 2 Columns */
+
+.mix,
+.gap {
+    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+}
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .mix,
+    .gap {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+    }
+}
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .mix,
+    .gap {
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+    }
+}
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .mix,
+    .gap {
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    }
+}
+
+
+
+/*# sourceMappingURL=mixitup.css.map */
