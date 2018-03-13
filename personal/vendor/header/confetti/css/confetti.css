@@ -1,0 +1,40 @@
+.confetti{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../../../../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.confetti:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.confetti-btn{
+	position: fixed;
+	left: 16px;
+	top: 16px;
+	z-index: 100;
+}
+.confetti-btn span{
+	display: inline-block;
+	padding: 8px 16px;
+	border: 1px dashed rgba(255,255,255,0.3);
+	cursor: pointer;
+	color: #fff;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	background-color: rgba(255,255,255,0.1);
+}
+.confetti-btn span:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+/*# sourceMappingURL=confetti.css.map */
