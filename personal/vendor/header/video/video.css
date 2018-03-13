@@ -1,0 +1,21 @@
+.video .video-setting{
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+  	min-width: 100%;
+  	min-height: 100%;
+  	width: auto;
+  	height: auto;
+  	overflow: hidden;
+}
+.video-light{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+/*# sourceMappingURL=video.css.map */
