@@ -1,0 +1,57 @@
+/*Responsive*/
+
+@media (max-width: 300px){
+	.mix-control{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (max-width:600px){
+	/*smartphone*/
+	.position-middle i{
+		font-size: 24px;
+	}
+	.profil-sosmed{
+		text-align: left;
+	}
+	.profil a{
+		margin: 4px 0;
+	}
+	.profil-bio{
+		margin: 0 -16px!important;
+	}
+	.profil-bio table{
+		border-left: none;
+	}
+}
+
+@media (max-width:992px) and (min-width: 601px){
+	/*tablet*/
+	.position-middle i{
+		font-size: 30px;
+	}
+	.profil a{
+		margin: 4px 0;
+	}
+	.profil-bio{
+		border: 1px dashed #888;
+		border-left: none;
+		padding: 16px 0;
+	}
+}
+
+@media (max-width:1440px) and (min-width: 993px){
+	/*laptop*/
+	.position-middle i{
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 1441px){
+	/*desktop*/
+	.position-middle i{
+		font-size: 80px;
+	}
+}
+/*# sourceMappingURL=responsive.css.map */

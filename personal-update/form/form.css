@@ -1,0 +1,85 @@
+.form-container {
+  max-width: 500px;
+  background: #fff;
+  padding: 16px;
+  margin: 16px auto;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.form-container h2{
+  text-align: center;
+}
+
+.form-container:hover{
+  border-color: #888;
+}
+
+.form{
+  padding-bottom: 16px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  border: 1px dashed #ddd;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 16px;
+  outline: none;
+  margin-top: 16px;
+}
+.form input:focus,
+.form textarea:focus,
+.form button:focus{
+  border-color: #888;
+}
+
+.form textarea {
+  display: block;
+  width: 100%;
+  border: 1px dashed #ddd;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 16px;
+  outline: none;
+  margin-top: 16px;
+  height: 150px;
+}
+
+.form button {
+  display: block;
+  width: 100%;
+  border: 1px dashed #ddd;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 16px;
+  outline: none;
+  margin-top: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.form input:hover,
+.form textarea:hover,
+.form button:hover{
+  border-color: #888;
+}
+
+.form button:active {
+  border-color: #888;
+}
+
+.success {
+  padding: 16px;
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+}
+
+.error {
+  padding: 16px;
+  color: #b94a48;
+  background-color: #f2dede;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,336 @@
+/*------------------------------------------------------------------
+
+[Master Style]
+
+Template Name : Flamecore - Personal Background Pro
+Version       : 1.0
+Framework     : iCore For Developer // getcore.github.io
+Author        : Andika Chamberlin // andikachamberlin.github.io
+
+-------------------------------------------------------------------*/
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+/*basic*/
+
+.basic{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.basic:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*end basic*/
+
+/*position*/
+
+.position-middle{
+	color: rgba(0,0,0,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+	color: #fff;
+}
+
+.position-middle i{
+	display: block;
+	padding: 16px;
+	cursor: pointer;
+}
+
+.position-topright i{
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 50%;
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	z-index: 111;
+	display: block;
+	padding: 16px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+.position-topright i:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+/*end position*/
+
+/*box*/
+
+.box-container{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 99;
+}
+
+/*jquery addclass*/
+.box-active{
+	width: 100%!important;
+	height: 100%!important;
+	z-index: 100!important;
+	border: none!important;
+	background-color: #fff;
+}
+
+.box:nth-child(1){
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 50%;
+	border-right: 1px dashed rgba(255,255,255,0.3);
+	border-bottom: 1px dashed rgba(255,255,255,0.3);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.box:nth-child(2){
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 50%;
+	border-bottom: 1px dashed rgba(255,255,255,0.3);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.box:nth-child(3){
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	border-right: 1px dashed rgba(255,255,255,0.3);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.box:nth-child(4){
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	height: 50%;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+/*end box*/
+
+/*content*/
+
+.content{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.profil,
+.resume,
+.portfolio,
+.contact{
+	padding: 50px 0 16px 0;
+}
+
+/*end content*/
+
+/*profil*/
+
+.profil-header p{
+	font-size: 18px;
+}
+
+.profil-sosmed {
+	padding: 16px 0;
+	text-align: right;
+}
+.profil-sosmed a:first-child{
+	cursor: default;
+}
+.profil-sosmed a{
+	display: inline-block;
+	padding: 10px 14px;
+	border: 1px dashed #888;
+	cursor: pointer;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	font-size: 15px;
+}
+
+.profil-sosmed a:hover{
+	border-color: #000;
+}
+
+.profil-img img{
+	display: block;
+}
+
+.profil-img-text{
+	padding-top: 16px;
+	color: #666;
+}
+
+.profil-bg{
+	border: 1px dashed #888;
+	margin: 0 16px;
+}
+
+.profil-name{
+	color: #666;
+}
+
+.profil-name h4{
+	padding-bottom: 8px;
+}
+
+.profil-bio{
+	color: #666;
+	overflow: auto;
+}
+.profil-bio table{
+	width: 100%;
+	border-left: 1px dashed #888;
+	border-collapse : collapse;
+   	border-spacing : 0;
+}
+.profil-bio table td{
+	padding: 8px 16px;
+	border-spacing: 0;
+}
+
+/*end profil*/
+
+/*resume*/
+
+.resume h4{
+	padding-bottom: 16px;
+	border-bottom: 1px dashed #888;
+}
+
+.resume-content{
+	margin: 16px 0;
+	border-left: 1px dashed #888;
+}
+
+.resume-profe{
+	color: #888;
+}
+
+.resume-desc{
+	padding-top: 8px;
+	font-size: 14px;
+}
+
+.resume-periode{
+	color: #888;
+}
+
+.resume-download{
+	display: inline-block;
+	padding: 12px 16px;
+	background-color: #444;
+	color: #fff;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.resume-download:hover{
+	background-color: #555;
+}
+
+.resume-dot{
+	overflow: hidden;
+}
+
+.resume-dot li{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.dot{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #ddd;
+	margin-top: 14px;
+}
+.dot-active{
+	background-color: #999;
+}
+
+/*end resume*/
+
+/*portfolio*/
+
+.portfolio h1{
+	text-align: center;
+	margin: 30px 16px 16px 16px;
+}
+
+/*end portolio*/
+
+/*contact*/
+
+.contact h1{
+	margin: 30px 16px 16px 16px;
+	text-align: center;
+}
+
+.google-map{
+	position: relative;
+	height: 400px;
+	border: 1px dashed #888;
+	margin: 20px 16px;
+}
+
+/*end contact*/
+
+/*footer*/
+.footer{
+	padding: 16px;
+	font-size: 14px;
+}
+.footer-form{
+	padding: 16px 0;
+}
+/*# sourceMappingURL=style.css.map */
