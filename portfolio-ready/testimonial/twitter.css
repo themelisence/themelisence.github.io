@@ -1,0 +1,22 @@
+.i-testimonial-bg-twitter{
+	background-color: #55acee;
+}
+
+.i-testimonial-twitter{
+	margin: 80px 0;
+	color: rgba(255,255,255,0.8);
+}
+
+.i-testimonial-twitter:before{
+	content: "\f099";
+	position: absolute;
+	left: 250px;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	font-family: fontAwesome;
+	font-size: 500px;
+	color: rgba(255,255,255,0.3);	
+}
+
+/*# sourceMappingURL=twitter.css.map */

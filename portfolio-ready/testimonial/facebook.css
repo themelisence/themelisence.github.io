@@ -1,0 +1,28 @@
+.i-testimonial-bg-facebook{
+	background-color: #3b5998;
+}
+
+.i-testimonial-facebook{
+	margin: 80px 0;
+	color: rgba(255,255,255,0.8);
+}
+
+.i-testimonial-facebook:before{
+	content: "\f09a";
+	position: absolute;
+	left: 150px;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	font-family: fontAwesome;
+	font-size: 300px;
+	color: rgba(255,255,255,0.3);	
+}
+
+.i-testimonial-facebook iframe{
+	display: block;
+}
+
+/*facebook post not responsive*/
+
+/*# sourceMappingURL=facebook.css.map */

@@ -1,0 +1,19 @@
+.typed{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+	z-index: 100;
+}
+
+@media (max-width: 600px){
+	.typed{
+		font-size: 30px;
+	}
+}
+/*# sourceMappingURL=typed.css.map */
