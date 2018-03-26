@@ -1,0 +1,485 @@
+/*------------------------------------------------------------------
+
+[Master Style]
+
+Project       : Portfolio Ready
+Version       : 1.0
+Framework     : iCore For Developer // getcore.github.io
+Author        : Andika Chamberlin // andikachamberlin.github.io
+Lisence       : Paid
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+[Table Content]
+
+01 General css
+
+02 Services
+
+03 About
+
+04 Skills
+
+05 Works
+
+06 Testimonial
+
+07 Contact
+
+08 Map
+
+09 Footer
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+[External Customize]
+
+* css
+* filter
+* form
+* header
+* img
+* load
+* map
+* skills
+* testimonial
+* typography
+* x-preview (index preview)
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[General css]
+-------------------------------------------------------------------*/
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+/*------------------------------------------------------------------
+[services]
+-------------------------------------------------------------------*/
+
+.i-services{
+	margin-top: 80px;
+}
+
+.i-services-header{
+	text-align: center;
+	margin: 16px;
+}
+
+.i-services-icon{
+	text-align: center;
+	margin: 16px;
+}
+
+.i-darkslategray{
+	background-color: darkslategray;
+}
+.i-darkslategray:before,
+.i-darkslategray:after{
+	border: 1px solid darkslategray;
+}
+
+.i-teal{
+	background-color: teal;
+}
+.i-teal:before,
+.i-teal:after{
+	border: 1px solid teal;
+}
+
+.i-salmon{
+	background-color: salmon;
+}
+.i-salmon:before,
+.i-salmon:after{
+	border: 1px solid salmon;
+}
+
+.i-icon-container{
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+
+.i-icon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+	font-size: 34px;
+}
+
+.i-icon:before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	-webkit-animation: iCircle 1.5s linear infinite;
+	animation: iCircle 1.5s linear infinite;
+	opacity: 0;
+}
+
+.i-icon:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	animation: iCircle 1.5s linear infinite;
+	-webkit-animation: iCircle 1.5s linear infinite;
+	-o-animation: iCircle 1.5s linear infinite;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+
+@-webkit-keyframes iCircle{
+	0%{
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
+
+@keyframes iCircle{
+	0%{
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
+
+.i-services-desc{
+	text-align: center;
+}
+
+.i-services-desc h5{
+	margin-bottom: 8px;
+}
+
+/*------------------------------------------------------------------
+[about]
+-------------------------------------------------------------------*/
+
+.i-about{
+	margin: 80px 0;
+	background-image: -webkit-gradient(linear, right top, left top, from(#02aab0), to(#00cdac));
+	background-image: linear-gradient(to left, #02aab0, #00cdac);
+}
+
+@media (max-width: 600px){
+	.i-about .grid-eq-m{
+		padding: 8px;
+	}
+}
+
+.i-about-relative{
+	position: relative;
+	color: #eee;
+	padding: 60px 0;
+}
+
+.i-about-relative:before{
+	content: "\f222";
+	position: absolute;
+	right: 30px;
+	top: 0;
+	font-family: fontAwesome;
+	font-size: 200px;
+	color: rgba(255,255,255,0.3);
+}
+
+@media (max-width: 600px){
+	.i-about-relative:before{
+		top: 70%;
+	}
+}
+
+.i-about-profil{
+	position: relative;
+}
+
+.i-about-profil:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.i-about-profil img{
+	display: block;
+	-webkit-filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.8));
+	        filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.8));
+}
+
+.i-about-desc{
+	position: relative;
+}
+
+@media (max-width: 600px){
+	.i-about-desc h4{
+		margin-top: 16px;
+	}
+}
+
+.i-about-desc p{
+	margin-top: 16px;
+	line-height: 1.5;
+}
+
+.i-about-resume{
+	margin: 16px 0;
+	display: inline-block;
+	background-color: #333;
+	padding: 12px 16px;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.i-about-resume:hover{
+	background-color: #222;
+}
+
+/*------------------------------------------------------------------
+[skills]
+-------------------------------------------------------------------*/
+
+.i-skills{
+	margin: 80px 0;
+}
+
+.i-skills-relative{
+	position: relative;
+}
+
+.i-skills-relative:before{
+	content: "\f200";
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	font-family: fontAwesome;
+	font-size: 200px;
+	color: #f1f1f1;
+	z-index: -1;
+}
+
+.i-skills-desc{
+	text-align: right;
+}
+
+.i-skills-desc p{
+	margin-top: 8px;
+	line-height: 1.5;
+}
+
+@media (max-width: 600px){
+	.i-skills-desc{
+		text-align: left;
+	}
+}
+
+/*------------------------------------------------------------------
+[works]
+-------------------------------------------------------------------*/
+
+.i-works{
+	position: relative;
+	background-image: url("../img/works.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 80px 0;
+}
+
+.i-works:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.i-works-relative{
+	position: relative;
+}
+
+.i-works-relative:before{
+	content: "\f1b0";
+	position: absolute;
+	top: -90px;
+	right: 30px;
+	font-family: fontAwesome;
+	font-size: 200px;
+	color: rgba(255,255,255,0.1);
+}
+
+.i-works-header{
+	text-align: center;
+	margin: 16px;
+	color: rgba(255,255,255,0.9);
+}
+
+/*------------------------------------------------------------------
+[testimonial]
+-------------------------------------------------------------------*/
+
+.i-testimonial{
+	margin-top: 80px;
+}
+
+.i-testimonial-desc{
+	padding: 30px 200px;
+}
+
+@media(max-width: 992px){
+	.i-testimonial-desc{
+		padding: 0;
+	}
+}
+
+.i-testimonial-relative{
+	position: relative;
+	overflow: hidden;
+}
+
+/*------------------------------------------------------------------
+[contact]
+-------------------------------------------------------------------*/
+
+.i-contact{
+	margin: 80px 0 0 0;
+}
+
+.i-contact-desc{
+	text-align: right;
+	position: relative;
+}
+
+.i-contact-desc p{
+	margin-top: 8px;
+	line-height: 1.5;
+}
+
+@media (max-width: 600px){
+	.i-contact-desc{
+		text-align: left;
+	}
+}
+
+.i-contact-relative{
+	position: relative;
+}
+
+.i-contact-relative:before{
+	content: "\f1d8";
+	position: absolute;
+	left: 16px;
+	bottom: -50px;
+	font-family: fontAwesome;
+	font-size: 200px;
+	color: rgba(0,0,0,0.1);
+	z-index: -1;
+}
+
+/*------------------------------------------------------------------
+[map]
+-------------------------------------------------------------------*/
+
+.i-map{
+	position: relative;
+	height: 500px;
+	margin-top: 80px;
+}
+
+/*------------------------------------------------------------------
+[footer]
+-------------------------------------------------------------------*/
+
+.i-footer{
+	border-top: 5px solid teal;
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+	padding: 16px;
+}
+
+.i-footer-icon{
+	margin-top: 60px;
+}
+
+.i-footer-icon a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	line-height: 38px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	font-size: 20px;
+	margin: 8px;
+}
+
+.i-footer-icon a:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.i-footer-copyright{
+	margin: 30px 16px 30px 16px;
+	text-align: center;
+}
+
+.i-footer-copyright p{
+	margin-top: 10px;
+}
+
+.i-footer-author{
+	color: teal;
+}
+
+/*# sourceMappingURL=style.css.map */
