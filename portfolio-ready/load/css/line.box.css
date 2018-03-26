@@ -1,0 +1,125 @@
+.i-linebox-container{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	overflow: hidden;
+	z-index: 9999;
+}
+.i-linebox-middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.i-linebox{
+	position: relative;
+	height: 80px;
+	width: 80px;
+	-webkit-animation: lineBoxRotate 3s infinite cubic-bezier(0, 0.47, 1, 1);
+	        animation: lineBoxRotate 3s infinite cubic-bezier(0, 0.47, 1, 1);
+	-webkit-animation-delay: 4s;
+	        animation-delay: 4s;
+}
+@-webkit-keyframes lineBoxRotate{
+	100%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+@keyframes lineBoxRotate{
+	100%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+.i-linebox li:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 5px;
+	background-color: teal;
+	-webkit-animation: lineBox1 1s forwards linear;
+	        animation: lineBox1 1s forwards linear;
+}
+@-webkit-keyframes lineBox1{
+	100%{
+		width: 100%;
+	}
+}
+@keyframes lineBox1{
+	100%{
+		width: 100%;
+	}
+}
+.i-linebox li:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: lineBox2 1s forwards linear;
+	        animation: lineBox2 1s forwards linear;
+	-webkit-animation-delay: 1s;
+	        animation-delay: 1s;
+}
+@-webkit-keyframes lineBox2{
+	100%{
+		height: 100%;
+	}
+}
+@keyframes lineBox2{
+	100%{
+		height: 100%;
+	}
+}
+.i-linebox li:nth-child(3){
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 5px;
+	background-color: teal;
+	-webkit-animation: lineBox3 1s forwards linear;
+	        animation: lineBox3 1s forwards linear;
+	-webkit-animation-delay: 2s;
+	        animation-delay: 2s;
+}
+@-webkit-keyframes lineBox3{
+	100%{
+		width: 100%;
+	}
+}
+@keyframes lineBox3{
+	100%{
+		width: 100%;
+	}
+}
+.i-linebox li:nth-child(4){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: lineBox4 1s forwards linear;
+	        animation: lineBox4 1s forwards linear;
+	-webkit-animation-delay: 3s;
+	        animation-delay: 3s;
+}
+@-webkit-keyframes lineBox4{
+	100%{
+		height: 100%;
+	}
+}
+@keyframes lineBox4{
+	100%{
+		height: 100%;
+	}
+}
+/*# sourceMappingURL=line.box.css.map */

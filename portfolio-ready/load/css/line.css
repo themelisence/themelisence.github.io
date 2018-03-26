@@ -1,0 +1,258 @@
+.i-line-container{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	overflow: hidden;
+	z-index: 9999;
+}
+.i-line-middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.i-line{
+	position: relative;
+	height: 80px;
+	width: 100px;
+	-webkit-animation: lineRotate 2s infinite alternate;
+	        animation: lineRotate 2s infinite alternate;
+	-webkit-animation-delay: 10s;
+	        animation-delay: 10s;
+}
+@-webkit-keyframes lineRotate{
+	100%{
+		-webkit-transform: scale(1.1);
+		        transform: scale(1.1);
+	}
+}
+@keyframes lineRotate{
+	100%{
+		-webkit-transform: scale(1.1);
+		        transform: scale(1.1);
+	}
+}
+.i-line li:nth-child(1){
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line1 1s forwards;
+	        animation: line1 1s forwards;
+}
+@-webkit-keyframes line1{
+	100%{
+		height: 100%;
+	}
+}
+@keyframes line1{
+	100%{
+		height: 100%;
+	}
+}
+.i-line li:nth-child(2){
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line2 1s forwards;
+	        animation: line2 1s forwards;
+	-webkit-animation-delay: 1s;
+	        animation-delay: 1s;
+}
+@-webkit-keyframes line2{
+	100%{
+		height: 90%;
+	}
+}
+@keyframes line2{
+	100%{
+		height: 90%;
+	}
+}
+.i-line li:nth-child(3){
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line3 1s forwards;
+	        animation: line3 1s forwards;
+	-webkit-animation-delay: 2s;
+	        animation-delay: 2s;
+}
+@-webkit-keyframes line3{
+	100%{
+		height: 80%;
+	}
+}
+@keyframes line3{
+	100%{
+		height: 80%;
+	}
+}
+.i-line li:nth-child(4){
+	position: absolute;
+	left: 30px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line4 1s forwards;
+	        animation: line4 1s forwards;
+	-webkit-animation-delay: 3s;
+	        animation-delay: 3s;
+}
+@-webkit-keyframes line4{
+	100%{
+		height: 70%;
+	}
+}
+@keyframes line4{
+	100%{
+		height: 70%;
+	}
+}
+.i-line li:nth-child(5){
+	position: absolute;
+	left: 40px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line5 1s forwards;
+	        animation: line5 1s forwards;
+	-webkit-animation-delay: 4s;
+	        animation-delay: 4s;
+}
+@-webkit-keyframes line5{
+	100%{
+		height: 60%;
+	}
+}
+@keyframes line5{
+	100%{
+		height: 60%;
+	}
+}
+.i-line li:nth-child(6){
+	position: absolute;
+	left: 50px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line6 1s forwards;
+	        animation: line6 1s forwards;
+	-webkit-animation-delay: 5s;
+	        animation-delay: 5s;
+}
+@-webkit-keyframes line6{
+	100%{
+		height: 50%;
+	}
+}
+@keyframes line6{
+	100%{
+		height: 50%;
+	}
+}
+.i-line li:nth-child(7){
+	position: absolute;
+	left: 60px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line7 1s forwards;
+	        animation: line7 1s forwards;
+	-webkit-animation-delay: 6s;
+	        animation-delay: 6s;
+}
+@-webkit-keyframes line7{
+	100%{
+		height: 40%;
+	}
+}
+@keyframes line7{
+	100%{
+		height: 40%;
+	}
+}
+.i-line li:nth-child(8){
+	position: absolute;
+	left: 70px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line8 1s forwards;
+	        animation: line8 1s forwards;
+	-webkit-animation-delay: 7s;
+	        animation-delay: 7s;
+}
+@-webkit-keyframes line8{
+	100%{
+		height: 30%;
+	}
+}
+@keyframes line8{
+	100%{
+		height: 30%;
+	}
+}
+.i-line li:nth-child(9){
+	position: absolute;
+	left: 80px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line9 1s forwards;
+	        animation: line9 1s forwards;
+	-webkit-animation-delay: 8s;
+	        animation-delay: 8s;
+}
+@-webkit-keyframes line9{
+	100%{
+		height: 20%;
+	}
+}
+@keyframes line9{
+	100%{
+		height: 20%;
+	}
+}
+.i-line li:nth-child(10){
+	position: absolute;
+	left: 90px;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background-color: teal;
+	-webkit-animation: line10 1s forwards;
+	        animation: line10 1s forwards;
+	-webkit-animation-delay: 9s;
+	        animation-delay: 9s;
+}
+@-webkit-keyframes line10{
+	100%{
+		height: 10%;
+	}
+}
+@keyframes line10{
+	100%{
+		height: 10%;
+	}
+}
+
+/*# sourceMappingURL=line.css.map */

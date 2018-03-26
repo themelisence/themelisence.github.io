@@ -1,0 +1,36 @@
+.i-load-basic{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	z-index: 9999;
+}
+.i-load-basic-middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.i-load-basic-circle {
+  	border: 3px solid #333;
+  	border-radius: 50%;
+  	border-top: 3px solid #f1f1f1;
+  	width: 80px;
+  	height: 80px;
+  	-webkit-animation: spin 1s linear infinite;
+  	animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  	0% { -webkit-transform: rotate(0deg); }
+  	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  	0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  	100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+/*# sourceMappingURL=basic.css.map */
