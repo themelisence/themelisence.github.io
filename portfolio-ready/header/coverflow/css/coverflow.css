@@ -1,0 +1,24 @@
+/*header*/
+
+.i-header{
+	position: relative;
+	overflow: hidden;
+}
+/*end header*/
+
+#preview-coverflow .coverflow {
+	cursor:	pointer;
+	display: block;
+}
+#preview-coverflow{
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+	padding: 200px 0 150px 0;
+}
+#preview-coverflow img{
+	-webkit-filter: brightness(60%);
+	        filter: brightness(60%);
+}
+
+/*# sourceMappingURL=coverflow.css.map */
