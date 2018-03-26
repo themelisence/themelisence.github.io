@@ -1,0 +1,84 @@
+.i-form-container {
+  background: transparent;
+}
+
+.i-form-container:hover{
+  border-color: #888;
+}
+
+.i-form{
+  padding-bottom: 16px;
+  display: block;
+  width: 100%;
+}
+
+.i-form input {
+  display: block;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 16px;
+  outline: none;
+  margin-top: 16px;
+  background-color: transparent;
+  position: relative;
+}
+
+.i-form input:focus,
+.i-form textarea:focus,
+.i-form button:focus{
+  border-color: #ddd;
+}
+
+.i-form textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 16px;
+  outline: none;
+  margin-top: 16px;
+  height: 150px;
+  background-color: transparent;
+}
+
+.i-form button {
+  display: block;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px 16px;
+  outline: none;
+  margin-top: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.i-form input:hover,
+.i-form textarea:hover,
+.i-form button:hover{
+  border-color: #ddd;
+}
+
+.i-form button:active {
+  border-color: #ddd;
+}
+
+.i-success {
+  padding: 16px;
+  color: #468847;
+  background-color: #dff0d8;i-
+  border: 1px solid #d6e9c6;
+}
+
+.i-error {
+  padding: 16px;
+  color: #b94a48;
+  background-color: #f2dede;
+}
+/*# sourceMappingURL=form.css.map */
+
+/*# sourceMappingURL=basic.css.map */
