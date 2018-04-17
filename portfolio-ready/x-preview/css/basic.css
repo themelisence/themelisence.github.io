@@ -77,10 +77,14 @@ sub{
 	        transform: translate(-50%,-50%);
 	text-align: center;
 	color: #fff;
+	width: 100%;
 }
 .i-header-text h1{
 	font-size: 100px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+.i-header-text p{
+	margin: 0 16px;
 }
 @media (max-width: 600px){
 	.i-header-text h1{
