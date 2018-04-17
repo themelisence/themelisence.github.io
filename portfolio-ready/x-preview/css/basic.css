@@ -88,7 +88,8 @@ sub{
 }
 @media (max-width: 600px){
 	.i-header-text h1{
-		font-size: 45px;
+		margin: 0 16px;
+		font-size: 30px;
 	}
 }
 .i-header-text h4{
