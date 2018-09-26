@@ -1,0 +1,17 @@
+@media (min-width: 993px){
+	._nav-fixed{
+		position: var(--fixed);
+		top: var(--0);
+		left: var(--0);
+		right: var(--0);
+		z-index: var(--z9998);
+	}
+}
+._hexagon{
+	color: var(--light-white);
+	text-shadow: var(--1px) var(--1px) var(--1px) var(--light-black-middle);
+}
+
+._hexagon ._position-middle{
+	z-index: var(--10);
+}

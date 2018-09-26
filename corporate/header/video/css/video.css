@@ -1,0 +1,26 @@
+._header-video{
+  position: var(--relative);
+  height: var(--100vh);
+  overflow: var(--hidden);
+}
+
+._video ._video-setting{
+	position: var(--absolute);
+	top: var(--50pc);
+	left: var(--50pc);
+	transform: translate(var(--50mpc),var(--50mpc));
+	min-width: var(--100pc);
+	min-height: var(--100pc);
+	width: var(--auto);
+	height: var(--auto);
+	overflow: var(--hidden);
+}
+
+._video-light{
+  position: var(--absolute);
+  top: var(--0);
+  right: var(--0);
+  bottom: var(--0);
+  left: var(--0);
+  background-color: var(--light-black-middle);
+}

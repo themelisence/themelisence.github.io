@@ -1,0 +1,36 @@
+._trid-container{
+	position: var(--relative);
+	height: var(--100vh);
+	overflow: var(--hidden);
+	background-image: url(../../../img/1.jpg);
+	background-size: var(--cover);
+	background-repeat: var(--no-repeat);
+	background-position: var(--center) var(--center);
+}
+
+._trid{
+	position: var(--absolute);
+	top: var(--0);
+	right: var(--0);
+	bottom: var(--0);
+	left: var(--0);
+}
+._trid:before{
+	content: var(--quote);
+	position: var(--absolute);
+	top: var(--0);
+	right: var(--0);
+	bottom: var(--0);
+	left: var(--0);
+	background-color: var(--light-black-middle);
+}
+
+._trid-sprite {
+	position: var(--relative);
+	width: 1200px;
+	height: 1200px;
+	top: -600px;
+	left: -600px;
+	border: var(--1px) var(--solid) rgba(255,255,255,0.3);
+	background-color: var(--light-black-hover);
+}

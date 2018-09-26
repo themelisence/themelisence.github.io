@@ -1,0 +1,18 @@
+._header-background{
+	position: var(--relative);
+	height: var(--100vh);
+	overflow: var(--hidden);
+	background-image: url(../../../img/corporate/1.jpg);
+	background-size: var(--cover);
+	background-repeat: var(--no-repeat);
+	background-position: var(--center) var(--center);
+}
+._header-background:before{
+	content: var(--quote);
+	position: var(--absolute);
+	top: var(--0);
+	right: var(--0);
+	bottom: var(--0);
+	left: var(--0);
+	background-color: var(--light-black-middle);
+}
